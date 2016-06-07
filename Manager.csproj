@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD40FF22-6720-44EB-A67B-C272A0DFB0B8}</ProjectGuid>
+    <ProjectGuid>{E70FA3A5-2461-4789-A937-0CCD33B20358}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Manager</RootNamespace>
@@ -29,9 +29,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <ApplicationIcon>sms_converted.ico</ApplicationIcon>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,16 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj">
-      <Project>{5abcc548-ef86-4113-a1e9-a1d90457fe15}</Project>
+      <Project>{449a1d9a-dcbe-4fb3-8a0b-e6fef1d01020}</Project>
       <Name>Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libs\Libs.csproj">
-      <Project>{3048badd-b244-4324-b399-c2e36c95de90}</Project>
+      <Project>{f56f9dc4-ee3f-4700-9c11-1d307f1f74c4}</Project>
       <Name>Libs</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sms_converted.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
